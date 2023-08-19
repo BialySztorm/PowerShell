@@ -14,7 +14,7 @@ Function CustomStart {
         Start-Process -FilePath $plik.FullName
     }
     else {
-        Write-Host "Nie znaleziono pliku na pozycji $FilePosition o rozszerzeniu $FileType w obecnej lokalizacji."
+        Write-Host "File not found at position $FilePosition with extension $FileType in the current location."
     }
 }
 
